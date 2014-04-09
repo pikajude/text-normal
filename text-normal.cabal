@@ -32,6 +32,6 @@ library
                        Data.Text.Normal.NFD
                        Data.Text.Normal.NFKC
                        Data.Text.Normal.NFKD
-  build-depends:       base >=4.6 && <4.7, deepseq, text, text-icu
+  build-depends:       base >=4.6 && <5, deepseq, text, text-icu
   hs-source-dirs:      src
   default-language:    Haskell2010
