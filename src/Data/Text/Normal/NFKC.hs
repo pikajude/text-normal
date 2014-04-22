@@ -35,7 +35,7 @@ instance Read Normal where
     readsPrec i = map (first fromText) . readsPrec i
 
 instance Monoid Normal where
-    mappend (Normal t1) (Normal t2) = Normal $ t1 <> t2
+    mappend (Normal t1) (Normal t2) = fromText $ t1 <> t2
     mempty = Normal mempty
 
 instance IsString Normal where

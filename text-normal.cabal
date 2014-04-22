@@ -35,3 +35,10 @@ library
   build-depends:       base >=4.6 && <5, deepseq, text, text-icu
   hs-source-dirs:      src
   default-language:    Haskell2010
+
+test-suite main
+  build-depends:       base, hspec, QuickCheck, quickcheck-instances, text-normal
+  hs-source-dirs:      tests
+  main-is:             main.hs
+  type:                exitcode-stdio-1.0
+  default-language:    Haskell2010
