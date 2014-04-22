@@ -5,7 +5,7 @@
 module NFD (specs) where
 
 import Data.Monoid
-import Data.Text.Normal.NFC
+import Data.Text.Normal.NFD
 import Data.String
 import Test.Hspec
 import Test.Hspec.QuickCheck

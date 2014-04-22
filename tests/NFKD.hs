@@ -5,7 +5,7 @@
 module NFKD (specs) where
 
 import Data.Monoid
-import Data.Text.Normal.NFC
+import Data.Text.Normal.NFKD
 import Data.String
 import Test.Hspec
 import Test.Hspec.QuickCheck
